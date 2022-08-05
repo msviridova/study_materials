@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    line-height: 1.6;
+    font-size: 11px;
+   }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 945px;
+  margin: 0 auto;
+}
+
+
+/* Intro */
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: #212121;
+}
+
+.intro_logo {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 250px;
+}
+
+.subtitle_text {
+  font-size: 18px;
+  padding-top: 300px;
+  text-align: center;
+  color: white;
+}
+/* Header */
+.header {
+  padding-top: 30px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header_logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Nav */
+.nav {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav__link__about, .nav__link__shop, .nav__link__video, .nav__link__contacts {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  transition: color .2s linear;
+}
+
+.nav__link__about:hover {
+  color: #FA0078
+}
+
+.nav__link__shop:hover {
+  color: #DE6A2B
+}
+
+.nav__link__video:hover {
+  color: #8AD320
+}
+
+.nav__link__contacts:hover {
+  color: #32D5EB
+}
+
+/* Section */
+.section {
+  padding: 80px 0;
+}
+
+.section_header {
+  width: 100%;
+  max-width: 950px;
+  margin-bottom: 0 auto 40px;
+  font-size: 18px;
+  color: black;
+}
+
+.about_title {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 38px;
+  text-align: center;
+}
+
+/* About */
+.section_about {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background: #212121;
+}
+
+.container_about {
+  width: 100%;
+  display: flex;
+  margin: auto 300px;
+  padding-top: 50px;
+
+}
+
+.about_photo, .about_text {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  padding-top: 30px;
+}
+
+.author_photo {
+  animation: ava-bg 3s infinite alternate;
+}
+
+.about_text {
+  display: inline-block;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+}
+
+.about_photo {
+  display: block;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+  border: 5px solid #fff;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+
+  animation: ava-animate 5s infinite alternate;
+}
+
+@keyframes ava-animate {
+  0% {
+    border-radius: 43% 57% 31% 69% / 40% 24% 76% 60%;
+  }
+  40% {
+    border-radius: 81% 19% 61% 39% / 68% 20% 80% 32%;
+  }
+  60% {
+    border-radius: 84% 16% 67% 33% / 40% 53% 47% 60%;
+  }
+  100% {
+    border-radius: 71% 29% 57% 43% / 31% 73% 27% 69%;
+  }
+}
+
+@keyframes ava-bg {
+  from {
+    backdrop-filter: hue-rotate(0);
+  }
+  to {
+    backdrop-filter: hue-rotate(90deg);
+  }
+}
+
+/* Contacts */
+
+.section_contact {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: #212121;
+}
+
+.contact-page {
+  width: 100%;
+  max-width: 945px;
+  padding:50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact_title {
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 38px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  }
+
+.contact_info, .contact_form {
+  flex: 5;
+}
+
+.item {
+  margin-bottom: 14px;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+  text-align:center;
+  padding: 16px;
+  color: white;
+  border-radius: 50%;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ff4e50;
+  transition: color .2s linear;
+}
+.contact_form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.textb {
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  background-color: #353535;
+  border: none;
+  margin-bottom: 12px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 15px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  padding: 12px;
+  background-color: #353535;
+  border: none;
+  margin-bottom: 12px;
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 15px;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  margin-left: auto;
+  background-color: #212121;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid orange;
+  border-image: linear-gradient(to right, yellow, red);
+  border-image-slice: 1;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: orange;
+}
+
+@@media screen and (max-width: 980px) {
+  .contact-page: {
+    max-width: 800px;
+  }
+  h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .contact_info, contact_form {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+
+  .textb {
+    width: 100%;
+  }
+}

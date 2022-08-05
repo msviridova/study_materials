@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a757f62e-c345-4bde-9957-83998facb52a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qWwZLgqHMyDqUeY9Y96MqkIklR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite/news" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django-testsite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a757f62e-c345-4bde-9957-83998facb52a" name="Default Changelist" comment="" />
+      <created>1617208707816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617208707816</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="25" width="1680" height="944" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617212460567">
+      <screen x="0" y="25" width="1680" height="944" />
+    </state>
+    <state x="0" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.25.1680.1025" timestamp="1617212460460" />
+    <state width="1680" height="944" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.944@0.25.1680.944" timestamp="1617212460567" />
+    <state x="536" y="109" key="#manage" timestamp="1619094941299">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="536" y="109" key="#manage/0.25.1680.940@0.25.1680.940" timestamp="1619094941299" />
+    <state x="536" y="109" key="#manage/0.25.1680.944@0.25.1680.944" timestamp="1618939422187" />
+    <state width="1659" height="251" key="GridCell.Tab.0.bottom" timestamp="1618845421791">
+      <screen x="0" y="25" width="1680" height="944" />
+    </state>
+    <state width="1659" height="251" key="GridCell.Tab.0.bottom/0.25.1680.944@0.25.1680.944" timestamp="1618845421791" />
+    <state width="1659" height="251" key="GridCell.Tab.0.center" timestamp="1618845421789">
+      <screen x="0" y="25" width="1680" height="944" />
+    </state>
+    <state width="1659" height="251" key="GridCell.Tab.0.center/0.25.1680.944@0.25.1680.944" timestamp="1618845421789" />
+    <state width="1659" height="251" key="GridCell.Tab.0.left" timestamp="1618845421788">
+      <screen x="0" y="25" width="1680" height="944" />
+    </state>
+    <state width="1659" height="251" key="GridCell.Tab.0.left/0.25.1680.944@0.25.1680.944" timestamp="1618845421788" />
+    <state width="1659" height="251" key="GridCell.Tab.0.right" timestamp="1618845421790">
+      <screen x="0" y="25" width="1680" height="944" />
+    </state>
+    <state width="1659" height="251" key="GridCell.Tab.0.right/0.25.1680.944@0.25.1680.944" timestamp="1618845421790" />
+    <state x="349" y="133" key="SettingsEditor" timestamp="1618939814556">
+      <screen x="0" y="25" width="1680" height="944" />
+    </state>
+    <state x="349" y="133" key="SettingsEditor/0.25.1680.944@0.25.1680.944" timestamp="1618939814556" />
+    <state x="541" y="228" width="597" height="538" key="find.popup" timestamp="1618836609046">
+      <screen x="0" y="25" width="1680" height="944" />
+    </state>
+    <state x="541" y="228" width="597" height="538" key="find.popup/0.25.1680.944@0.25.1680.944" timestamp="1618836609046" />
+    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1618856356438">
+      <screen x="0" y="25" width="1680" height="944" />
+    </state>
+    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup/0.25.1680.944@0.25.1680.944" timestamp="1618856356438" />
+  </component>
+</project>
